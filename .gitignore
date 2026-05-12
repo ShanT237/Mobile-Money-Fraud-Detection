@@ -1,0 +1,28 @@
+# Datos — nunca subas el CSV a GitHub
+data/
+*.csv
+
+# Entornos virtuales
+venv/
+env/
+.env
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Modelos guardados (pueden ser muy pesados)
+*.pkl
+*.joblib
+
+# Configuraciones de editor
+.vscode/
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
