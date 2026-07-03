@@ -56,6 +56,8 @@ The current rule-based system (`isFlaggedFraud`) catches only **16 out of 8,213 
 - **11 columns**, **6,362,620 rows** (534 MB)
 - Fraud rate: **0.13%** (8,213 frauds out of 6.3M)
 - Fraud only in **TRANSFER** and **CASH_OUT** transaction types
+
+![Fraud by Transaction Type](img/fraud_by_type.png)
 - Flagged fraud system (`isFlaggedFraud`) detects only **16 out of 8,213**
 - No negative amounts or balances — data is consistent
 - Balance inconsistency (`oldbalanceOrg - amount ≠ newbalanceOrig`) is **rare in legit, common in fraud** — strong predictive signal
